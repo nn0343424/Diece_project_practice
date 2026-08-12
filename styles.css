@@ -1,0 +1,68 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+button{
+  text-align: center;
+  justify-content: center;
+}
+
+.play-btn {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 30px;
+  font-family: 'Lobster', cursive; /* Matches your header font */
+  font-size: 2rem;
+  color: #4ECCA3;                  /* Clean green/teal text */
+  background-color: #393E46;       /* Dark contrast background */
+  border: none;
+  border-radius: 8px;              /* Smooth rounded corners */
+  cursor: pointer;                 /* Changes mouse cursor to a hand pointer */
+  transition: transform 0.2s;      /* Smooth click animation effect */
+}
+
+/* Makes the button pop slightly when hovered over */
+.play-btn:hover {
+  transform: scale(1.1);
+  background-color: #4ECCA3;
+  color: #393E46;
+}
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+  
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
